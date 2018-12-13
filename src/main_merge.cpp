@@ -37,6 +37,7 @@ int main(int argc, char **argv) {
     for (unsigned int i = 0; i < n; ++i) {
         as[i] = r.nextf();
     }
+
     std::cout << "Data generated for n=" << n << "!" << std::endl;
 
     std::vector<float> cpu_sorted;
